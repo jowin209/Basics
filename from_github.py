@@ -2,7 +2,7 @@ import sys
 
 def github():
   """This is branch is created from Github."""
-  response = input("Why are you here?")
+  response = input("Why are you here? ")
 
   if len(response) < 5:
     print("You're dead!")
