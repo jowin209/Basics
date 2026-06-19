@@ -4,7 +4,7 @@ def github():
   """This is branch is created from Github."""
   response = input("Why are you here?")
 
-  if len(input) < 5:
+  if len(response) < 5:
     print("You're dead!")
     sys.exit(4)
   
