@@ -1,6 +1,16 @@
+import sys
+
 def github():
   """This is branch is created from Github."""
-  print("Why are you here?")
+  response = input("Why are you here?")
+
+  if len(input) < 5:
+    print("You're dead!")
+    sys.exit(4)
+  
+  print("I see. Please proceed.")
+  sys.exit(0)
+
 
 if __name__ == "__main__":
   github()
